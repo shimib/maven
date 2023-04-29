@@ -101,10 +101,13 @@ under the License.
     <exportedPackage>javax.enterprise.util.*</exportedPackage>
     <exportedPackage>javax.enterprise.inject.*</exportedPackage>
     -->
+    <exportedPackage>jakarta.inject.*</exportedPackage>
 
     <!-- javax.annotation (JSR-250) -->
     <exportedPackage>javax.annotation.*</exportedPackage>
-    <exportedPackage>javax.annotation.security.*</exportedPackage>
+    <exportedPackage>javax.annotation.*</exportedPackage>
+    <exportedPackage>jakarta.annotation.*</exportedPackage>
+    <exportedPackage>jakarta.annotation.security.*</exportedPackage>
 
     <!-- 
       | We may potentially want to export these, but right now I'm not sure that anything Guice specific needs
@@ -172,7 +175,9 @@ under the License.
     <exportedArtifact>org.apache.maven.resolver:maven-resolver-connector-basic</exportedArtifact>
 
     <exportedArtifact>javax.inject:javax.inject</exportedArtifact>
+    <exportedArtifact>jakarta.inject:javax.inject</exportedArtifact>
     <exportedArtifact>javax.annotation:javax.annotation-api</exportedArtifact>
+    <exportedArtifact>jakarta.annotation:javax.annotation-api</exportedArtifact>
     <exportedArtifact>org.slf4j:slf4j-api</exportedArtifact>
     <exportedArtifact>org.fusesource.jansi:jansi</exportedArtifact>
 
