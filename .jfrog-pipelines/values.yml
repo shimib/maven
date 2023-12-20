@@ -18,7 +18,7 @@ publishBuild: true
 
 ##### Repository Details
 repo:
-  path: org/repo
+  path: shimib/maven
   gitIntegration: github
   branchPattern: "^main$"
 
