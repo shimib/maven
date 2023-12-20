@@ -19,7 +19,7 @@ publishBuild: true
 ##### Repository Details
 repo:
   path: org/repo
-  gitIntegration: myGitIntegration
+  gitIntegration: github
   branchPattern: "^main$"
 
 ##### Maven configuration
